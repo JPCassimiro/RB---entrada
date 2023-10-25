@@ -182,5 +182,5 @@ void imprime(Tree a, char *s) {
     
 void entradaRB(Tree a, int item,link h){
   insert(a,item);
-  //rebalance(a,h);
+  rebalance(a,h);
 }
